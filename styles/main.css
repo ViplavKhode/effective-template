@@ -4,7 +4,7 @@ body {
 
 /*Header Style*/
 header {
-  background: url("../images/da-img-1.jpg") no-repeat center center;
+  background: url("../images/background.jpg") no-repeat center center;
   position: relative;
   height: 100vh;
   min-height: 600px;
@@ -17,7 +17,8 @@ header {
   font-size: 0.95rem;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active {
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
   color: #fff;
 }
 
@@ -63,18 +64,18 @@ header {
 
 .da-expertise .progress-bar {
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transition: -webkit-transform 2s ease-in-out;
   transition: -webkit-transform 2s ease-in-out;
   transition: transform 2s ease-in-out;
   transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .da-expertise .aos-animate {
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .da-expertise .da-exp-image {
@@ -105,14 +106,14 @@ header {
 @media (max-width: 992px) {
   .da-gallery .card-columns {
     -webkit-column-count: 2;
-            column-count: 2;
+    column-count: 2;
   }
 }
 
 @media (max-width: 576px) {
   .da-gallery .card-columns {
     -webkit-column-count: 1;
-            column-count: 1;
+    column-count: 1;
   }
 }
 
@@ -128,7 +129,7 @@ header {
 
 /*Contact Style*/
 .da-contact {
-  background: url("../images/staticmap.png") no-repeat center center;
+  background: url("../images/sscmcemap.jpg") no-repeat center center;
   position: relative;
   min-height: 700px;
   background-size: cover;
@@ -189,7 +190,7 @@ a.credit {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   position: relative;
 }
 
