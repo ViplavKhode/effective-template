@@ -198,3 +198,8 @@ a.credit {
 .da-section {
   padding: 100px 0;
 }
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
