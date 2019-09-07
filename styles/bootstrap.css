@@ -952,6 +952,7 @@ pre code {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom:50%;
   }
   .order-sm-first {
     -webkit-box-ordinal-group: 0;
@@ -1141,6 +1142,7 @@ pre code {
         -ms-flex: 0 0 83.33333%;
             flex: 0 0 83.33333%;
     max-width: 83.33333%;
+    margin-bottom : 500px;
   }
   .col-md-11 {
     -webkit-box-flex: 0;
