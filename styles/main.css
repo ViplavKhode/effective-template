@@ -59,7 +59,7 @@ header {
 
 /* Expertise Skills Style */
 .da-expertise .da-exp-skills {
-  padding: 70px 40px 60px 40px;
+  padding: 70px 40px 60px 0px;
 }
 
 .da-expertise .progress-bar {
@@ -196,7 +196,8 @@ a.credit {
 
 /*Common Style*/
 .da-section {
-  padding: 100px 0;
+  padding: 25px 0;
+  margin-top: 0%;
 }
 .responsive {
   width: 100%;

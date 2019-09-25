@@ -415,6 +415,7 @@ h6, .h6 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
+  margin-top: -25%;
 }
 
 .display-4 {
@@ -589,12 +590,23 @@ pre code {
 }
 
 .container-fluid {
-  width: 100%;
+  width: 89%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 12%
 }
+
+.container-fluid1 {
+  width: 89%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0%;
+  margin-left: 11%;
+  margin-top: 12%
+}
+
 
 .row {
   display: -webkit-box;
@@ -4212,7 +4224,7 @@ input[type="button"].btn-block {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 0;
+  poadding-left: 0; 
   margin-bottom: 0;
   list-style: none;
 }
@@ -7988,6 +8000,7 @@ button.bg-dark:focus {
 .pl-0,
 .px-0 {
   padding-left: 0 !important;
+  margin-top:-5%;
 }
 
 .p-1 {
@@ -8131,7 +8144,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+  margin-left: -9% !important;
 }
 
 @media (min-width: 576px) {
